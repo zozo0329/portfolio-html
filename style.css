@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+header {
+    text-align: center;
+    color: rgb(255, 153, 0);
+    background-color: black;
+    padding: 40px;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.project1{
+    background-color: rgb(245, 159, 0);
+    text-align: center;
+    margin: 40px;
+    border-radius: 10px;
+    padding: 40px;
+}
+.project1 img {
+    height: auto;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.project1 button {
+    padding: 15px 45px 15px 45px;
+    border: none;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(236, 159, 71);
+    color: white;
+    box-shadow: 1px 1px 10px rgb(97, 97, 97);
+    cursor: pointer;
+    transition: 0.15s;
+
+}
+.project1 button:hover {
+    background-color: rgb(216, 118, 7);
+}
+.project1 button:active{
+    opacity: 0.4;
+}
+
+.nav-bar{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(177, 95, 3);
+}
+
+.nav-bar ul {
+    list-style-type: none;
+}
+.nav-bar li{
+    padding: 10px;
+    font-size: 20px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    transition: 0.15s;
+}
+.nav-bar a:hover {
+    opacity: 0.7;
+}
